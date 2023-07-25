@@ -26,7 +26,7 @@ document.querySelector(".button").addEventListener("click", function () {
       lectureNumber <= 0 ||
       isNaN(lectureNumber)
     ) {
-      return `Invalid lecture number! ⛔️<br>Your current lecture number cannot be higher than the number of total lectures you.`;
+      return `Invalid lecture number! ⛔️<br>Your current lecture number cannot be higher than a number of total lectures.`;
     }
     const text = `You have reached to the ${lectureNumber}th lecture out of ${totalLectures}, and you have completed ${(
       (lectureNumber / totalLectures) *
