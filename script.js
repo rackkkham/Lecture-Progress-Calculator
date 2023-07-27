@@ -28,10 +28,10 @@ document.querySelector(".button").addEventListener("click", function () {
     ) {
       return `Invalid lecture number! ⛔️<br>Your current lecture number cannot be higher than a number of total lectures.`;
     }
-    const text = `You have reached to the ${lectureNumber}th lecture out of ${totalLectures}, and you have completed ${(
+    const text = `You have reached to the ${lectureNumber}th lecture out of ${totalLectures} <br> You have completed ${(
       (lectureNumber / totalLectures) *
       100
-    ).toFixed(2)}% of the total course. <br> You've got ${
+    ).toFixed(2)}% of the total course. <br> There are ${
       totalLectures - lectureNumber
     } more lectures to go.`;
 
