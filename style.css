@@ -108,6 +108,7 @@ body {
   padding: 20px 0;
 }
 
+/* Styling */
 h1 {
   color: greenyellow;
   font-size: 3rem;
@@ -161,18 +162,29 @@ input {
 #output-text {
   color: grey;
   font-size: 1.5rem;
-  margin: 25px;
+  margin: 75px;
   color: aliceblue;
 }
 
 .button {
-  font-size: 1.3rem;
   background-color: greenyellow;
-  color: black;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   width: 10rem;
   height: 2.5rem;
+  font-size: 1.3rem;
+  transition: all 0.1s;
+
+  box-shadow: 0 0.75rem 2.5rem rgba(0, 0, 0, 0.406);
+}
+
+.button:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
 input[type="number"] {
   text-align: center;
+  box-shadow: 0 0rem 1.5rem rgba(0, 0, 0, 0.483);
 }
