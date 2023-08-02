@@ -1,5 +1,8 @@
 # Lecture-Progress-Calculator
-Description:
+
+<img alt="Guess My Number Screenshot" width="600" src="https://i.imgur.com/BnwgWvK.png">
+
+<h2>Description:</h2>
 
 The "Lecture Progress Calculator" is a JavaScript-based web application
 that allows users to track their progress in completing a series of lectures
@@ -10,28 +13,27 @@ The application then calculates the percentage of progress achieved,
 how many lectures are left to complete, and provides motivational messages
 based on the user's current progress.
 
-Key Features:
+<h2>Key Features:</h2>
 
-Calculate Lecture Progress: 
+• Calculate Lecture Progress: 
 Input the total number of lectures and the current lecture completed
 to see the overall progress in percentage.
 
-Remaining Lectures:
+• Remaining Lectures:
 Find out how many more lectures are left to complete the course
 or study materials.
 
-Motivational Messages:
+• Motivational Messages:
 Receive encouraging messages based on the current progress
 towards completing the course.
 
-Easy-to-Use Interface:
+• Easy-to-Use Interface:
 The user-friendly interface makes it simple to input data and view results.
 
-How to Use:
-Enter the total number of lectures or sections in your course.
-Input the lecture number you have completed so far.
-Click the "Calculate Progress" button to see your progress
-and motivational messages.
+<h2>How to Use:</h2>
+<p>Enter the total number of lectures or sections in your course.</p>
+<p>Input the lecture number you have completed so far.</p>
+<p>Click the "Calculate Progress" button to see your progress and motivational messages.</p>
 
 The "Lecture Progress" provides a convenient way
 to keep track of your learning journey and stay motivated
