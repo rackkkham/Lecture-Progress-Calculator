@@ -1,6 +1,6 @@
 # Lecture-Progress-Calculator
 
-<img alt="Guess My Number Screenshot" width="600" src="https://i.imgur.com/BnwgWvK.png">
+<img alt="Guess My Number Screenshot" width="600" src="https://i.imgur.com/zeW0JpG.png">
 
 <h2>Description:</h2>
 
